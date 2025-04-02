@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-family: 'Figtree', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  text-align: left;
+  max-width: 20rem;
+  border-radius: 1.25rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0 hsl(0, 0%, 0%);
+}
+
+.image {
+  border-radius: .5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.tag-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.tag {
+  padding: .4rem .8rem;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  border-radius: .25rem;
+  font-size: .8rem;
+}
+
+.date {
+  font-size: small;
+  font-weight: normal;
+}
+
+.description {
+  color: hsla(0, 0%, 7%, 0.479);
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: 800;
+}
